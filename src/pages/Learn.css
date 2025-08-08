@@ -1,0 +1,91 @@
+/* Container styles */
+.learn-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  min-height: calc(100vh - 4rem); /* Điều chỉnh để tránh chồng lấp với header/footer */
+}
+
+/* Title and description */
+.learn-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.learn-description {
+  font-size: 1rem;
+  color: #4a5568;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Lessons grid */
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Lesson card styles */
+.lesson-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3182ce;
+  margin-bottom: 0.5rem;
+}
+
+.lesson-description {
+  font-size: 0.875rem;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+.lesson-link {
+  display: inline-block;
+  color: #48bb78; /* Màu xanh lá cho liên kết */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lesson-link:hover {
+  text-decoration: underline;
+}
+
+.lesson-link span {
+  margin-left: 0.25rem;
+}
+
+/* Back button */
+.back-button {
+  text-align: center;
+}
+
+.back-link {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3182ce;
+  border-radius: 0.25rem;
+}
+
+.back-link:hover {
+  background-color: #ebf4ff;
+}
