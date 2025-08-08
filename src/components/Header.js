@@ -1,24 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css'; // Assuming you have a CSS file for Header component styles
+import { NavLink, Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">
+      <Link to="/" className="logo" aria-label="Trang chủ">
         <div className="hand-circle">
           <span className="hand-icon">🤟</span>
         </div>
         <h1 className="logo-text">Yêu Ngôn Ngữ</h1>
-      </div>
+      </Link>
+
       <nav className="nav">
-        <Link to="/" className="nav-link">Trang chủ</Link>
-        <Link to="/learn" className="nav-link">Bài học</Link>
-        <Link to="/test" className="nav-link">Bài kiểm tra</Link>
-        <Link to="/search" className="nav-link">Tra từ điển</Link>
+        <NavLink to="/" end className="nav-link">Trang chủ</NavLink>
+        <NavLink to="/learn" className="nav-link">Bài học</NavLink>
+        <NavLink to="/test" className="nav-link">Bài kiểm tra</NavLink>
+        <NavLink to="/search" className="nav-link">Tra từ điển</NavLink>
       </nav>
+
       <div className="actions">
-        <button className="action-btn">+</button>
+        <button className="action-btn" title="Tạo nhanh">+</button>
         <span className="ai-icon">AI</span>
       </div>
     </header>
