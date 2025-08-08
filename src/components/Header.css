@@ -38,6 +38,12 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none; /* ẩn gạch chân */
+  color: inherit; /* giữ màu chữ theo theme */
+}
+
+.logo:hover {
+  text-decoration: none; /* ẩn underline khi hover */
 }
 
 .hand-circle {

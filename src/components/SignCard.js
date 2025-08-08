@@ -10,7 +10,7 @@ const SignCard = ({ word, videoUrl, description }) => {
         <ReactPlayer
           url={videoUrl}
           width="100%"
-          height="200px"
+          height="180px"
           controls={true}
           playing={false}
           onError={(e) => console.log(`Lỗi phát video ${word}:`, e)}
