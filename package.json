@@ -40,7 +40,16 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
+  },
+  "homepage": "https://ZeroQuan.github.io/Yeu_Ngon_Ngu",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "postbuild": "cp build/index.html build/404.html || copy build\\index.html build\\404.html"
   }
 }
