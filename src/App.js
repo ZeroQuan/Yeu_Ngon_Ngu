@@ -9,7 +9,7 @@ import LessonDetail from './pages/LessonDetail';
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router basename='/Yeu_Ngon_Ngu'>
       <Header />
       <div className="container mx-auto p-4 mt-16">
         <Routes>
