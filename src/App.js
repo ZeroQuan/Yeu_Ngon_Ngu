@@ -12,12 +12,12 @@ function App() {
     <Router>
       <Header />
       <div className="container mx-auto p-4 mt-16">
-        <Routes basename="/Yeu_Ngon_Ngu">
-          <Route path="/" element={<Home />} />
-          <Route path="/learn" element={<Learn />} />
-          <Route path="/test" element={<Test />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/lesson/:id" element={<LessonDetail />} />
+        <Routes>
+          <Route path="#/" element={<Home />} />
+          <Route path="#/learn" element={<Learn />} />
+          <Route path="#/test" element={<Test />} />
+          <Route path="#/search" element={<Search />} />
+          <Route path="#/lesson/:id" element={<LessonDetail />} />
         </Routes>
       </div>
     </Router>
