@@ -4,29 +4,29 @@ import "./Test.css";
 const Test = () => {
   const questions = [
     {
-      video: "/videos/hello.mp4",
-      options: ["Xin chào", "Cảm ơn", "Tạm biệt", "Xin lỗi"],
-      answer: "Xin chào",
+      video: "https://qipedc.moet.gov.vn/videos/W03990.mp4?autoplay=true",
+      options: ["A. Xin chào", "B. Cảm ơn", "C. Tạm biệt", "D. Xin lỗi"],
+      answer: "D. Xin lỗi",
     },
     {
       video: "https://qipedc.moet.gov.vn/videos/W00482.mp4?autoplay=true",
-      options: ["Ông bà", "Cha mẹ", "Con gái", "Con trai"],
-      answer: "Cha mẹ",
+      options: ["A. Ông bà", "B. Ba mẹ", "C. Con gái", "D. Con trai"],
+      answer: "B. Ba mẹ",
     },
     {
-      video: "/videos/hello.mp4",
-      options: ["Xin chào", "Cảm ơn", "Tạm biệt", "Xin lỗi"],
-      answer: "Xin chào",
+      video: "https://qipedc.moet.gov.vn/videos/D0029N.mp4?autoplay=true",
+      options: ["A. Thói quen", "B. Cảm ơn", "C. Tham ăn", "D. Cười vỡ bụng"],
+      answer: "A. Thói quen",
     },
     {
-      video: "/videos/hello.mp4",
-      options: ["Xin chào", "Cảm ơn", "Tạm biệt", "Xin lỗi"],
-      answer: "Xin chào",
+      video: "https://qipedc.moet.gov.vn/videos/D0026.mp4?autoplay=true",
+      options: ["A. Hói đầu", "B. Lung tung", "C. Hấp dẫn", "D. Thèm"],
+      answer: "D. Thèm",
     },
     {
-      video: "/videos/hello.mp4",
-      options: ["Xin chào", "Cảm ơn", "Tạm biệt", "Xin lỗi"],
-      answer: "Xin chào",
+      video: "https://qipedc.moet.gov.vn/videos/D0018.mp4?autoplay=true",
+      options: ["A. Nổi da gà", "B. Ghen tị", "C. Mù chữ", "D. Vô tình"],
+      answer: "A. Nổi da gà",
     },
   ];
 
@@ -94,10 +94,9 @@ const Test = () => {
   return (
     <div className="test">
       <div className="card">
-        <div className="header">
+        
           <h1>Bài kiểm tra</h1>
           <span className="subtitle">Chọn đáp án đúng theo video minh họa</span>
-        </div>
 
         <div className="media">
           {/* lấy video theo câu hiện tại */}

@@ -28,7 +28,7 @@ const Home = () => {
       <div className="features">
         <div className="feature-card">
           <h4>Học tập tương tác</h4>
-          <p>Các bài học video hấp dẫn được phân loại theo độ khó và chủ đề nhằm giúp bạn xây dựng vốn từ vựng ngôn ngữ ký hiệu.</p>
+          <p>Các bài học video hấp dẫn được phân loại căn bản đến nâng cao và chủ đề nhằm giúp bạn học hiểu biết về xây dựng vốn từ vựng ngôn ngữ kí hiệu (thủ ngữ).</p>
         </div>
         <div className="feature-card">
           <h4>Luyện tập và kiểm tra</h4>
@@ -56,7 +56,7 @@ const Home = () => {
           <div className="hand-circle">
             <span className="hand-icon">🤟</span>
           </div>
-          <span>Yêu Npôn ngữ</span>
+          <span>Yêu Ngôn ngữ</span>
         </div>
         <p>© 2025 Bản quyền. | Thiết kế vì sự tiếp cận dành cho mọi người</p>
       </footer>
